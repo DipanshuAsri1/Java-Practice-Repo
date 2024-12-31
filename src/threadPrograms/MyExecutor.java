@@ -29,6 +29,12 @@ public class MyExecutor {
             System.out.println("Hello : "+n);
         });
 
+        ExecutorService service=Executors.newFixedThreadPool(2);
+        service.submit(()->{
+            System.out.println(" I am being executed");
+        });
+
+
     }
 }
 class  Work  implements  Callable<String>{

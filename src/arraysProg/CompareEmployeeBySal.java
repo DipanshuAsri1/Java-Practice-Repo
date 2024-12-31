@@ -16,6 +16,8 @@ public class CompareEmployeeBySal {
 
         Employee [] employees=new Employee[4];
 
+
+
         for(int i=0;i<4;i++) {
             employees[i]= new Employee(20 +i, "Deep", BigInteger.valueOf(3000 - i));
         }

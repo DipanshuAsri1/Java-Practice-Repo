@@ -13,7 +13,6 @@ public class TripletsWithZeroSum {
         int arr[] = {-1, 0, 1, 2, -1, -4}; // sorted ( -4,-1,-1,0,1,2)
         int sum = 0;
 
-
         //This one is o(n*n) but will have duplicate triplets
         boolean f = false;
 
